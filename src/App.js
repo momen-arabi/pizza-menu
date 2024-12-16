@@ -1,16 +1,13 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
 
 function App() {
-  let time = new Date().toLocaleTimeString();
-
   return (
-    <div className="container mx-auto px">
-      <h2>Hello Wooooorld!</h2>
+    <div className="container mx-auto px-4">
+      <h1 className="font-bold text-2xl">Hello Everyone</h1>
       <small>
-        It's <strong>{time}</strong> now.
+        It's <strong>{new Date().toLocaleTimeString()}</strong> now.
       </small>
-      <button>Send</button>
     </div>
   );
 }
