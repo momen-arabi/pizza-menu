@@ -10,6 +10,7 @@ function App() {
       <small>
         It's <strong>{time}</strong> now.
       </small>
+      <button>Send</button>
     </div>
   );
 }
